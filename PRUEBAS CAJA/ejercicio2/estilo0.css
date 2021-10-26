@@ -1,0 +1,25 @@
+body
+{
+	background-color: black;
+}
+
+div
+{
+	background-color: blue;
+	overflow: hidden;
+}
+
+div div
+{
+	background-color: green;
+	border: 2px red solid;
+	width: 200px;
+	height: 200px;
+	float:left;
+}
+
+/* #prueba2
+{
+	float:right;
+	height: 300px;
+} */

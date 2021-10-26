@@ -1,0 +1,45 @@
+/* ponemos el fondo que buscamos */
+body
+{
+	background-color: #4B4B4B;
+
+}
+
+/* le añadimos algo de padin para que no este muy pegado a los lados */
+main
+{
+	padding: 5%;
+}
+
+h2
+{
+	font-family: Fantasy;
+	text-align: center;
+	margin: 5% 0;
+}
+
+/* cambiamos el tamaño de la letra de introduccion */
+body main section div p
+{
+	font-size: 1.2em;
+}
+
+
+p span
+{
+	font-weight: bold;
+}
+
+/* clase para las letras cursivas y quitamos ela negrita de los span */
+.cur
+{
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* colocamos un margen para todas las imagenes */
+img
+{
+	margin: 1%;
+}
+

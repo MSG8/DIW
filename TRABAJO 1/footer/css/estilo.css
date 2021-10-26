@@ -1,0 +1,50 @@
+footer
+{
+  background-color: #7a9a01;
+  opacity: 0.7;
+}
+
+/* footer div
+{
+  border: black 5px solid;
+} */
+
+footer div
+{
+  overflow: hidden;
+}
+
+footer div div, footer div nav
+{
+  width: 50%;
+  float: left;
+}
+
+footer div nav a
+{
+  display: block;
+}
+
+footer div div
+{
+  max-height: 60px;
+  float: right;
+}
+
+footer div div img
+{
+  max-height: 60px;
+  float: right;
+}
+
+footer div p
+{
+  margin: 0;
+  width: 50%;
+  float: left;
+}
+
+footer div p:nth-child(2),footer div div
+{
+  text-align: right;
+}

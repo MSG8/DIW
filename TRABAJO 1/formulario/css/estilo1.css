@@ -1,0 +1,40 @@
+form
+{
+  background-color: #7a9a01;
+}
+
+
+form fieldset select, form fieldset textarea
+{
+  display: block;
+}
+
+form fieldset div, form div
+{
+  display: flex;
+}
+
+form fieldset div label, form fieldset div input, form div input 
+{
+  flex: 1;
+}
+
+form fieldset textarea
+{
+  margin: 1rem 0;
+  width: 100%;
+  min-height: 200px;
+}
+
+form fieldset div input, form fieldset select, form fieldset div label
+{
+  padding: 0.3rem;
+}
+
+form div:nth-child(3) input
+{
+  margin: 0.3rem 16rem 0.3rem 16rem;
+  padding: 0.3rem;
+}
+
+

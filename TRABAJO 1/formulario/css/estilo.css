@@ -1,0 +1,38 @@
+header
+{
+  background-color: cyan;
+  opacity: 0.6;
+  display: flex; /*usamos el display flex para colocar el ancho que buscamos*/
+}
+
+header div
+{
+  flex: 1; /*tamaño para el contenedor de la imagen*/
+  display:flex; /*lo usamos para centrar verticalmente la imagen*/
+  align-items: center;
+}
+
+header div img
+{
+  padding: 10px; /*le ponemos un espacio para distanciarlo del borde*/
+  max-height: 120px;
+  margin-left: 15%; /*le damos un margen izquierdo a la imagen para que no este pegado*/
+  border: black inset 3px;
+  border-radius: 65px/50px; /*creamos un borde en forma de ovalo*/
+}
+
+header nav
+{
+  flex: 2; /*tamaño para el menu*/
+  text-align: right; /* Colocamos los enlances a la derecha*/
+  padding: 0 5% 5% 0;
+}
+
+header nav a
+{
+  margin: 30px 10px 0 0; /*Centramos los enlances*/
+  padding: 5px; /*Separamos los enlances*/
+  display: inline-block; /*Usada para poder usar propiedades en bloque*/
+  border: black inset 3px; 
+  border-radius: 15px;
+}

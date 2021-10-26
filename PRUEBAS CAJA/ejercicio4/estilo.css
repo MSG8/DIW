@@ -1,0 +1,55 @@
+body
+{
+	background-color: navy;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+div#dos
+{
+	width: 800px;
+	margin: 60px;
+	background-color: white;
+	overflow: hidden;
+	padding: 4px;
+}
+
+div#dos div
+{
+	background-color: cyan;
+	height: 60px;
+	border: red 1px solid;
+	width: 396px;
+	float: left; /*Flotamos los bloques contenidos para que se pongan uno tras de otro como di fueran lineal*/
+}
+
+/* div#dos div
+{
+ 	position: absolute; || si le ponemos absolute no ve al contenido y se coloca en la esquina del body, ademas el contenedor no coge el tamaño de lo que contiene
+} */
+
+div#dos div
+{
+	position: relative; /* Si colocamos el relative no se vera de momento movimiento en los bloques ya que se queda su espacio guardado y el contenedor lo reconoce*/
+}
+
+div#dos div#prueba /*Lo movemos como queremos segun su posicion */
+{
+	top: 50px;  /*Respeto a su posicion se movera hacia abajo 50px*/
+	left: 100px;  /*Respeto a su posicion se movera hacia la derecha 100px*/
+	z-index:3; /*Colocamos esta intruccion para decir que va sobrepuesta a las demas cajas */
+} 
+
+/* div#dos div#prueba Lo movemos como queremos segun su posicion
+{
+	top: 200px;  Si le colocamos mucho saldra de su recipiente y no se vera pero si existe, esto es por el overflow: hidden, si fuera scroll si se podria ver
+	left: 700px;
+	z-index:3; Colocamos esta intruccion para decir que va sobrepuesta a las demas cajas
+} */
+
+div div:hover /*colocamos el hover ya que al colocar el pulsor se aplicara este codigo*/
+{
+	z-index:10;  /*Colocamos esta intruccion para decir que va sobrepuesta a cualquiera caja ya que es mayor a todos los z-index*/
+}

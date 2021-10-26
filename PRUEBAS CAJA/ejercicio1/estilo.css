@@ -1,0 +1,50 @@
+body
+{
+	background-color: navy;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+div#uno
+{
+	background-color: white;
+	width: 700px; /*Tengo definido que el ancho total */
+	padding: 0;
+	margin: 0;
+	/* display: inline; */
+}
+
+div#uno p
+{
+	background-color: blue;
+	width: 220px; /*Tengo definido que el ancho total*/
+	border: red 4px solid;
+	/* margin-block-end: 0;
+	margin-block-start: 0; */
+	padding: 0;
+	margin: 1px;
+	display: inline-block; /*Tengo que decirle a los bloques del interior, que funcionen como lineas y no bloques, generara un margen por defecto aunque se ponga 0 */
+}
+
+div#dos
+{
+	background-color: white;
+	overflow: hidden;
+	/* pongo valores de defecto al cero */
+	/* display: inline; */
+}
+
+div#dos div
+{
+	background-color: cyan;
+	height: 60px;
+	width: 100px;
+	float: left;
+	/* pongo valores de defecto al cero */
+}
+
+div#dos div #prueba
+{
+	height: 120px;
+}

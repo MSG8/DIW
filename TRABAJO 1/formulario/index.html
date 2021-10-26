@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Manuel Solís Gómez -->
+<HTML lang=es dir=ltr>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta type="author" content="Manuel Solis Gomez "/>
+		<meta type="description" content="Formulario"/>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<title> FORMULARIO </title>
+		<link rel="stylesheet" type="text/css" href="css/estilo1.css"/>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Datos de informacion</legend>
+				<div>
+					<label  for="nombre">Nombre completo :</label>
+					<input type="text" name="nombre" placeholder="Nombre Apellido Apellido" />
+				</div>
+				<select name="opciones">
+					<option value="" selected="selected" hidden="hidden"> -- TIPO DE INFORMACION A CAMBIAR -- </option>
+					<option value="articulo"> Articulo </option>
+					<option value="personal"> Personal </option>
+					<option value="espacios"> Espacios </option>
+				</select>
+				<textarea name="descripcion" placeholder="Describe su informacion"></textarea>
+			</fieldset>
+			<fieldset>
+				<legend>Datos de contacto</legend>
+				<div>
+					<input type="text" name="telefono" placeholder="000000000" maxlength="9" pattern="{9} [0-9]"/>
+					<input type="email" name="correo" placeholder="ejemplo@gmail.com" />
+				</div>
+			</fieldset>
+			<!-- <fieldset>
+			</fieldset> -->
+			<div>
+				<input type="reset" name="borrar" value="Borrar" />
+				<input type="submit" name="Enviar" value="Enviar"/>
+			</div>
+		</form>
+	</body>
+</HTML>
