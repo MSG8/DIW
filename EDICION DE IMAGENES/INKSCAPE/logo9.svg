@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg47573"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo9.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview47575"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72337262"
+     inkscape:cx="396.75265"
+     inkscape:cy="451.35798"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs47570" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 84.232572,138.40531 46.711008,-7.37363 29.90649,13.34284 -37.97225,1.94718 z"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="path48372" />
+    <path
+       d="m 135.24093,56.304452 -3.23901,73.139718 29.90649,13.34284 1.85935,-41.98582 z"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="path48374" />
+    <path
+       d="M 85.329324,88.154034 133.12425,56.304466 129.88524,129.44417 83.174241,136.8178 Z"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="path48376" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.463px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.636576"
+       x="72.632431"
+       y="200.38396"
+       id="text49833"
+       transform="scale(1.186906,0.84252673)"><tspan
+         sodipodi:role="line"
+         id="tspan49831"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.463px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.636576"
+         x="72.632431"
+         y="200.38396">cube</tspan></text>
+  </g>
+</svg>
