@@ -1,0 +1,28 @@
+/*
+    Manuel Solis Gomez
+    Licencia: Libre
+    Este archivo se aplica en todos los archivps php que aplique formulario, con medidas de porcentaje
+*/
+@font-face 
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      local('Open Sans'),
+      url(/fonts/opensans.woff2) format('woff2'),
+      url(/fonts/opensans.woff) format('woff'),
+      url(/fonts/opensans.ttf) format('truetype'),
+      url(/fonts/opensans.otf) format('opentype'),
+      url(/fonts/opensans.eot) format('embedded-opentype');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1
+{
+    font-family: 'Open Sans';
+}
