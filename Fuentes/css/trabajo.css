@@ -1,0 +1,33 @@
+/*
+    Autor: Manuel Solís Gómez
+    Licencia: 
+    Descripciones: Estilo para probar las fuentes en css
+*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face 
+{
+    font-family: "Convoy";
+    src: url("Convoy.ttf");
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1
+{
+    font-family: 'Road Rage', cursive;
+}
+h2:nth-child(2)
+{
+    font-family: 'Comforter Brush', cursive;
+}
+h2:nth-child(3)
+{
+    font-family: 'Press Start 2P', cursive;
+}
+h2:nth-child(4)
+{
+    font-family: 'Convoy';
+}

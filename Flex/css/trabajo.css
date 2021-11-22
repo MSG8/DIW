@@ -1,0 +1,40 @@
+/*
+    Manuel Solis Gomez
+    Licencia: Libre
+    Este archivo se aplica para probar flex
+*/
+nav div
+{
+    background-color: rgba(0, 100, 0, 0.5);
+    border: 1px black solid;
+    padding: 5px;
+    margin: 5px;
+}
+nav:nth-child(1)
+{
+    background-color: darkcyan;
+}
+nav:nth-child(2)
+{
+    display: flex;
+    background-color: coral;
+}
+nav:nth-child(3)
+{
+    display: flex;
+    background-color: chartreuse;
+}
+nav:nth-child(3) div
+{
+    flex: 1;
+}
+nav:nth-child(4)
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 166, 0);
+}
+nav:nth-child(4) div
+{
+    flex: 1;
+}
